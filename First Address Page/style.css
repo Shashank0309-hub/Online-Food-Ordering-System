@@ -1,0 +1,234 @@
+body {
+	margin: 0;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	background: white;
+	box-shadow: 0 5px 8px 2px rgba(0,0,0,.2);
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+
+	position: relative;
+}
+
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #b05e2a;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+.addressbox{
+	font-weight: bold;
+	width: 900px;
+	height: 200px;
+	background: white;
+	color: white;
+	top: 67%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	box-shadow: 0 5px 8px 8px rgba(0,0,0,.2);
+	border-radius: 24px;
+
+}
+
+.addressbox h1{
+	font-family: 'Candara', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500; 
+}
+
+.addressbox input[type="text"]{
+	font-weight: bold;
+	border: 2px solid;
+	border-color: white; 	
+	display: block;
+	margin: 20px auto;
+	padding: 14px 10px;
+	width: 600px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	background: none;
+	color: white;
+}
+
+.addressbox input[type="text"]:focus{
+	width: 750px;
+	border-color: #3498db;
+}
+
+.addressbox input[type="button"]{
+	font-weight: bold;
+	border: 0;
+	border: 2px solid #b05e2a;
+	display: block;
+	margin: 20px auto;
+	padding: 5px 10px;
+	width: 150px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	background: none;
+}
+
+.addressbox input[type="button"]:hover{
+	background: #b05e2a;
+	color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+.addressbox input[class="button1"] {
+  color: white;
+}
+
+
+.speciality{
+	padding-top: 5%;
+	text-align: center;
+	font-family: 'Candara', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.afterhr{
+	margin-top: -3.5%;
+	margin-right: 57%;
+	margin-left: 2%;
+	border: 1px solid #444;
+    
+}
+
+.afterhr1{
+	margin-top: -0.6%;
+	margin-left: 57%;
+	margin-right: 2%;
+	border: 1px solid #444;	
+}
+
+.specialbox{
+	height: 300px;
+	background: #261c15;
+	margin-top: 3%;
+}
+
+.specialbox img{
+	padding-top: 1.5%;
+	padding-left: 3%;
+}
+
+.specialbox img[src="free-delivery.png"]{
+	padding-left: 7.5%;
+}
+
+.specialbox img[src="sale.png"]{
+	padding-left: 10%;
+}
+
+.copyright{
+	background: black;
+	color: white;
+	height: 140px;
+}
+
+.copyright p[class="about"]{
+	padding-left: 20%;
+	padding-top: 10%;
+}
+
+.copyright p[class="tnc"]{
+	padding-left: 70%;
+}
+
+copbot ul{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+copbot li{
+	display: inline-block;
+	margin-left: 270px;
+	padding-top: 40px;
+	position: relative;
+}
+
+.copyright p[class="coptext"]{
+	padding-top: 2%;
+	padding-left: 41%;
+	font-family: 'Candara', sans-serif;
+}
+
+copbot a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+copbot a:hover {
+	color: white;
+}
